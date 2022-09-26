@@ -8,6 +8,10 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname+'/index.html'))
 })
 
+app.get('/homepage', (req, res) => {
+    res.sendFile(path.join(__dirname+'/homepage1.html'))
+})
+
 app.use(express.static('public'));
 
 

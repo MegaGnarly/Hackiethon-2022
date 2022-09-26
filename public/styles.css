@@ -246,6 +246,114 @@ h4 {
   transition: .5s ease all;
 }
 
+
+/******************************************************************************************************************/
+
+.homepage-title{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+  font-weight: 1000;
+  flex-direction: column;
+}
+
+.homepage-text{
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.down-arrow{
+  margin-top: auto;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.portfolio-cards{
+  height: 60vh;
+  display: flex;
+  width: 90%;
+}
+
+.cards{
+  margin: auto;
+  width: 18%;
+  height: 100%;
+  border: 5px solid #D4BBDD;
+  border-radius: 20px;
+  overflow: hidden;
+  justify-content: center;
+  display: flex;
+  transition: all 0.8s ease 0s;
+  position: relative;
+}
+
+
+.card1:hover{
+  transform: scale(1.05);
+
+}
+
+.card2:hover{
+  transform: rotateY(180deg);
+
+}
+
+.card3:hover{
+  transform: scale(1.05);
+}
+
+.card3 .overlay {
+  position: absolute;
+  padding-top: 50%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.8s ease 0s;
+  background-color: black;
+  color: white;
+}
+
+.card3:hover .overlay {
+  opacity: 0.7;
+  position: absolute;
+  display: block;
+}
+
+.card4{
+  filter: grayscale();
+}
+
+.card4:hover{
+  transform: scale(1.05);
+  filter: none;
+}
+
 .white-text {
   color: white;
+}
+
+.colour1 {
+  background-color: #FBEDE0;
+}
+
+.colour2 {
+  background-color: #FDD1D2;
+}
+
+.colour3 {
+  background-color: #D4BBDD;
+}
+
+.colour4 {
+  background-color: #D0AB99;
 }
