@@ -138,6 +138,27 @@ a.navbar-dropdown-item, .navbar.has-dropdown, .navbar.is-hoverable{
     color: #D0AB99;
 }
 
+.icon {
+    display: flex;
+    margin: auto;
+    width: 100%;
+  }
+  
+  .icon i {
+    margin-top: 48px;
+    margin: 3%;
+  }
+  
+  .icon-span {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: auto;
+    width: 100%;
+  }
+  
+  .contact-content {
+  }
 
 .colour1 {
     background-color: #FBEDE0;
