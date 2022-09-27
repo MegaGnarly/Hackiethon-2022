@@ -321,6 +321,7 @@ h4 {
   transition: all 0.8s ease 0s;
   background-color: black;
   color: white;
+  font-size: medium;
 }
 
 .card3:hover .overlay {

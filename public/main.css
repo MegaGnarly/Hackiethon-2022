@@ -1,0 +1,73 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cards > .card {
+    width: 300px;
+    min-height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* color nth card */
+.card:nth-child(1) > .card-header {
+    background-color: #00cfb1;
+}
+.card:nth-child(2) > .card-header {
+    background-color: #545aa0;
+}
+.card > .card-header > * {
+    color: white;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* skill pill */
+.skills-list > li {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+    margin: 5px;
+}
+
+.navbar-start{
+    margin: auto;
+}
+
+.navbar-item{
+    color: #FBEDE0;
+}
+
+.title{
+    color: #D0AB99;
+}
+
+.subtitle{
+    color: #D0AB99;
+}
+
+.colour1 {
+    background-color: #FBEDE0;
+  }
+  
+  .colour2 {
+    background-color: #FDD1D2;
+  }
+  
+  .colour3 {
+    background-color: #D4BBDD;
+  }
+  
+  .colour4 {
+    background-color: #D0AB99;
+  }
