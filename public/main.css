@@ -1,3 +1,16 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.hero-body{
+    display: flex;
+    flex-direction: row;
+}
+
+.body-pic{
+    margin-left: 30%;
+}
+
 .cards{
     display: flex;
     flex-wrap: wrap;
@@ -42,10 +55,23 @@ form {
 
 .navbar-start{
     margin: auto;
+    
+}
+
+.navbar-link.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover{
+    color: #D0AB99;
+    background-color: #FBEDE0;
+    opacity: 0.7;
 }
 
 .navbar-item{
     color: #FBEDE0;
+    border-radius: 10px;
+    transition: all 0.5s ease 0s;
+}
+
+.navbar-item:hover{
+    background-color: #545aa0;
 }
 
 .title{
@@ -55,6 +81,7 @@ form {
 .subtitle{
     color: #D0AB99;
 }
+
 
 .colour1 {
     background-color: #FBEDE0;
