@@ -30,17 +30,24 @@ html {
   flex-direction: column;
 }
 
+.homepage-title-grad{
+  background-image: linear-gradient(to right, #FBEDE0, #FDD1D2, #D4BBDD, #D0AB99);
+}
+
 .homepage-text{
   height: 90%;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: auto;
+  margin: auto;
 }
 
 .down-arrow{
   margin-top: auto;
   text-decoration: none;
   font-weight: 400;
+  color: black;
 }
 
 .portfolio-cards{

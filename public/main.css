@@ -138,13 +138,40 @@ a.navbar-dropdown-item, .navbar.has-dropdown, .navbar.is-hoverable{
     color: #D0AB99;
 }
 
+.fa-brands{
+    font-size: 36px; 
+    color: #d0ab99;
+    transition: all 0.5s ease 0s;
+}
+
+.fa-brands:hover{
+    transform: scale(1.2);
+    color: #d0ab99;
+}
+
+.send-button{
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    padding: 4%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    box-shadow:  0px 4px 6px 0px rgba(0,0,0,0.4);
+}
+
+.send-button:hover{
+    background-image: linear-gradient(rgb(0 0 0/20%) 0 0);
+}
+
 .icon {
     display: flex;
     margin: auto;
     width: 100%;
   }
   
-  .icon i {
+  .icon a {
     margin-top: 48px;
     margin: 3%;
   }
@@ -156,9 +183,7 @@ a.navbar-dropdown-item, .navbar.has-dropdown, .navbar.is-hoverable{
     margin: auto;
     width: 100%;
   }
-  
-  .contact-content {
-  }
+
 
 .colour1 {
     background-color: #FBEDE0;
