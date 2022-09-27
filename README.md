@@ -1,6 +1,3 @@
 # Hackiethon-2022
 
-    <script
-      src="https://kit.fontawesome.com/c8498247e5.js"
-      crossorigin="anonymous"
-    ></script>
+This is the portfolio website designed and created by C2D2 for Hackiethon 2022
