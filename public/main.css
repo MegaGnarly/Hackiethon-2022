@@ -1,12 +1,16 @@
 html {
     scroll-behavior: smooth;
-    /* background-color: #D0AB99; */
+    color: #D0AB99;
 }
 
 a.navbar-item{
     background-color: #D0AB99;
 }
 
+.navbar-dropdown.is-boxed, a.navbar-item:hover{
+    color:#D0AB99;
+    background-color: #FBEDE0;
+}
 .navbar-menu{
     background-color: #D0AB99;
 }
@@ -83,52 +87,28 @@ form {
 }
 
 
-/* a.navbar-item, a.navbar-link, .navbar-item.has-dropdown, .navbar.is-hoverable, .navbar.is-boxed{
+.navbar-dropdown.is-boxed{
+    color:#FBEDE0;
     background-color: #D0AB99;
-} */
+}
 
 a.navbar-link{
     color:#FBEDE0;
     background-color: #D0AB99;
 }
-/* .navbar-link:hover{
-    background-color: #D0AB99;
-} */
 
-.navbar-item, .navbar-link {
-    color: #FBEDE0;
-    background-color: #D0AB99;
-}
-
-.navbar-dropdown{
-    background-color: #D0AB99;
-}
-
-a.navbar-dropdown-item, .navbar.has-dropdown, .navbar.is-hoverable{
-    color: #FBEDE0;
-    background-color: #D0AB99;
-}
-
-.navbar-item:hover{
-    color: #FBEDE0; 
-}
 
 .navbar-item:hover{
     background-color:#FBEDE0;
     color: #D0AB99; 
     border-radius: 10px;
 }
-
-/* .navbar-item{
-    background-color: #D0AB99;
-} */
-
 .navbar-item{
     color: #FBEDE0;
-    /* background-color: #D0AB99; */
-    border-radius: 10px;
     transition: all 0.5s ease 0s;
 }
+
+
 
 .title{
     color: #D0AB99;
@@ -155,6 +135,47 @@ a.navbar-dropdown-item, .navbar.has-dropdown, .navbar.is-hoverable{
     flex-direction: row;
     margin: auto;
     width: 100%;
+    /* transition: all 0.8s ease 0s; */
+  }
+
+
+  .fa-brands.fa-facebook{
+    transition: all 0.3s ease 0s;
+  }
+  .fa-brands.fa-facebook:hover{
+    transform: scale(1.2) rotate(-10deg);
+  }
+
+
+  .fa-brands.fa-instagram{
+    transition: all 0.3s ease 0s;
+  }
+  .fa-brands.fa-instagram:hover{
+    transform: scale(1.2) rotate(-10deg);
+  }
+
+
+  .fa-brands.fa-linkedin{
+    transition: all 0.3s ease 0s;
+  }
+  .fa-brands.fa-linkedin:hover{
+    transform: scale(1.2) rotate(-10deg);
+  }
+
+
+  .fa-brands.fa-twitter{
+    transition: all 0.3s ease 0s;
+  }
+  .fa-brands.fa-twitter:hover{
+    transform: scale(1.2) rotate(-10deg);
+  }
+
+
+  .fa-brands.fa-discord{
+    transition: all 0.3s ease 0s;
+  }
+  .fa-brands.fa-discord:hover{
+    transform: scale(1.2) rotate(-10deg);
   }
   
   .contact-content {
