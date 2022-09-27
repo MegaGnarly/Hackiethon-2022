@@ -2,13 +2,25 @@ html {
     scroll-behavior: smooth;
 }
 
+a.navbar-item{
+    background-color: #D0AB99;
+}
+
+.navbar-menu{
+    background-color: #D0AB99;
+}
+
 .hero-body{
     display: flex;
     flex-direction: row;
 }
 
+.body-text{
+    width: 40%;
+}
+
 .body-pic{
-    margin-left: 30%;
+    margin: auto;
 }
 
 .cards{
@@ -30,10 +42,10 @@ html {
 
 /* color nth card */
 .card:nth-child(1) > .card-header {
-    background-color: #00cfb1;
+    background-color: #FDD1D2;
 }
 .card:nth-child(2) > .card-header {
-    background-color: #545aa0;
+    background-color: #D4BBDD;
 }
 .card > .card-header > * {
     color: white;
@@ -49,8 +61,14 @@ form {
     display: inline-block;
     padding: 5px 10px;
     border-radius: 10px;
-    color: white;
+    color: #FBEDE0;
+    background-color: #D0AB99;
     margin: 5px;
+    transition: all 0.5s ease 0s;
+}
+
+.skills-list > li:hover{
+    transform: scale(1.05);
 }
 
 .navbar-start{
