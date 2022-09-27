@@ -55,13 +55,16 @@ form {
 
 .navbar-start{
     margin: auto;
-    
 }
 
 .navbar-link.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover{
     color: #D0AB99;
     background-color: #FBEDE0;
     opacity: 0.7;
+}
+
+.navbar-item, .navbar-item.has-dropdown{
+    background-color: #D0AB99;
 }
 
 .navbar-item{
