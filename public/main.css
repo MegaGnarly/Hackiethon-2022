@@ -228,3 +228,34 @@ a.navbar-link{
   .colour4 {
     background-color: #D0AB99;
   }
+
+  hr.dotted{
+    border-top: 4px dotted #D0AB99;
+    background-color: #FBEDE0;
+    margin:0%;
+    opacity: 0.9;
+  }
+
+  hr.dashed{
+    border-top: 4px dashed #D0AB99;
+    background-color: #FBEDE0;
+    margin:0%;
+    opacity: 0.9;
+  }
+
+  hr.rounded{
+    border-top: 10px solid #D0AB99;
+    background-color: #FBEDE0;
+    margin:0%;
+    border-radius: 80px;
+    opacity:0.8;
+  }
+
+  hr.inconsistent {
+    border: 0;
+    height: 5px;
+    background-image: linear-gradient(to right, transparent, #D0AB99, transparent); 
+    background-color: #FBEDE0; 
+    margin: 0%;
+    opacity: 0.8;
+  }
