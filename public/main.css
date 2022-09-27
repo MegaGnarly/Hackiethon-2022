@@ -52,6 +52,9 @@ a.navbar-item{
 .card:nth-child(2) > .card-header {
     background-color: #D4BBDD;
 }
+.card:nth-child(3) > .card-header {
+  background-color: #5691c8;
+}
 .card > .card-header > * {
     color: white;
 }
