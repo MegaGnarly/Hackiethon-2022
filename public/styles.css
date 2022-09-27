@@ -69,6 +69,20 @@ html {
   position: relative;
 }
 
+@media screen and (max-width: 768px) {
+  .portfolio-cards{
+    flex-direction: column;
+  }
+  .cards{
+    width: 90%;
+    margin-top: 20px; 
+    height: 25vh;
+  }
+  .picc{
+    width: 100%;
+    object-fit: cover;
+  }
+}
 
 .card1:hover{
   transform: scale(1.05);

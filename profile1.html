@@ -12,7 +12,7 @@
         <script src="https://kit.fontawesome.com/c8498247e5.js" crossorigin="anonymous"></script>
     </head>
 
-    <body>
+    <body class="colour-grad">
         <!-- NAVBAR -->
         <header>
             <nav class="navbar colour4">
@@ -30,7 +30,7 @@
 
                 <div id="navbar-menu" class="navbar-menu">
                     <div class="navbar-start">
-                        <a href="#home" class="navbar-item">Home</a>
+                        <a href="/" class="navbar-item">Home</a>
                         <a href="#skills" class="navbar-item">Skills</a>
                         <a href="#projects" class="navbar-item">Projects</a>
 
@@ -59,10 +59,10 @@
         </header>
 
         <!-- HOME -->
-        <section id="home" class="hero colour1">
+        <section id="home" class="hero">
             <div class="hero-body">
                 <div class="body-text">
-                    <h1 class="title">Hello, my name is Professional</h1>
+                    <h1 class="title">Hello, my name is David</h1>
                     <br>
                     <p class="subtitle">
                         Hello! My name is David and I love
@@ -83,7 +83,7 @@
         </section>
 
         <!-- SKILLS -->
-        <section id="skills" class="section">
+        <section id="skills" class="section border">
             <h2 class="title">Skills</h2>
             <ul class="skills-list">
                 <li>HTML</li>
@@ -100,7 +100,7 @@
         </section>
 
         <!-- PROJECTS -->
-        <section id="projects" class="section">
+        <section id="projects" class="section border">
             <h2 class="title">Projects</h2>
             <div class="cards">
                 <div class="card js-modal-trigger" data-target="project-1-modal">
@@ -112,7 +112,7 @@
                     <div class="card-content">
                         <p class="content">
                             I made this portfolio website using HTML, CSS and
-                            JavaScript and deployed it on GitHub Pages!
+                            JavaScript and deployed it on Heroku!
                         </p>
                     </div>
                 </div>
@@ -127,24 +127,38 @@
                         </p>
                     </div>
                 </div>
+                <div class="card js-modal-trigger" data-target="project-3-modal">
+                    <div class="card-header">
+                        <h3 class="card-header-title">
+                            Fish Database Website
+                        </h3>
+                    </div>
+                    <div class="card-content">
+                        <p class="content">
+                            I made a website that helps anglers keep track of their
+                            catches, share their catches with others. It also provides a fish database
+                            and a monthly performance report.
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
         
-        <section id="work-experience" class="section">
+        <section id="work-experience" class="section border">
           <h2 class="title">Work Experience</h2>
           <p class="subtitle">2007-2022 Full-time Studier</p>
       </section>
-      <section id="extra-curricular" class="section">
+      <section id="extra-curricular" class="section border">
           <h2 class="title">Extra Curricular</h2>
           <p class="subtitle">Played 6 Years of tennis at an intermediate level.</p>
       </section>
-      <section id="education" class="section">
+      <section id="education" class="section border">
           <h2 class="title">Education</h2>
           <p class="subtitle">Phd in Money Testing</p>
       </section>
 
         <!-- CONTACT -->
-      <section id="contact" class="section">
+      <section id="contact" class="section border">
           <h2 class="title">Contact</h2>
           <div class="contact-content">
             <form class="form-stuff">
@@ -216,7 +230,9 @@
               </span>
             </div>
           </div>
+          <br>
         </section>
+        <br>
 
         <!-- MODALS -->
         <div id="project-1-modal" class="modal">
@@ -224,7 +240,7 @@
 
             <div class="modal-content">
                 <div class="box">
-                    <p>Project 1 Modal</p>
+                    <p>THIS WEBSITE</p>
                     <!-- Your content -->
                 </div>
             </div>
@@ -242,6 +258,18 @@
                     <img src="/Patient.png">
                     <br><br><br>
                     <img src="/Clinician.png">
+                </div>
+            </div>
+
+            <button class="modal-close is-large" aria-label="close"></button>
+        </div>
+        <div id="project-3-modal" class="modal">
+            <div class="modal-background"></div>
+
+            <div class="modal-content">
+                <div class="box">
+                    <p>Website Link: <a href="https://it-project-radio-shrink-v2.herokuapp.com/">https://it-project-radio-shrink-v2.herokuapp.com/</a></p>
+
                 </div>
             </div>
 

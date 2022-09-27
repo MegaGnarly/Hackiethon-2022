@@ -19,6 +19,25 @@ a.navbar-item{
     background-color: #D0AB99;
 }
 
+.colour-grad{
+    background-image: linear-gradient(135deg, #FBEDE0, #FDD1D2, #D0AB99);
+}
+
+.border{
+    border: 2px solid #D0AB99;
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 3px rgb(158, 158, 158));
+    width: 94%;
+    margin: auto;
+    margin-top: 25px;
+    background-color: #FBEDE0;
+    transition: all 0.5s;
+}
+
+.border:hover{
+    background-color: #ffe0c3e1;
+}
+
 .hero-body{
     display: flex;
     flex-direction: row;
@@ -30,6 +49,9 @@ a.navbar-item{
 
 .body-pic{
     margin: auto;
+    border-radius: 10px;
+    border: 2px solid white;
+    overflow: hidden;
 }
 
 .cards{
